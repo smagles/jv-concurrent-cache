@@ -9,9 +9,9 @@ Your primary objective is to design and implement a concurrent cache system. Thi
 2. The cache should be optimized for high read concurrency. It should allow multiple read operations to proceed concurrently, while write operations should be managed to avoid conflicts and data corruption.
 
 3. Key Methods:
-- Implement the following methods in the `Cache` class:
-    - `V get(K key)`: Retrieves an item from the cache.
-    - `void put(K key, V value)`: Adds or updates an item in the cache.
-    - `void remove(K key)`: Removes an item from the cache.
-    - `int size()`: Returns the current number of items in the cache.
-- Ensure thread safety and efficient access for these methods.
+   - Implement the following methods in the `Cache` class:
+       - `V get(K key)`: Retrieves an item from the cache.
+       - `void put(K key, V value)`: Adds or updates an item in the cache.
+       - `void remove(K key)`: Removes an item from the cache.
+       - `int size()`: Returns the current number of items in the cache.
+   - Ensure thread safety and efficient access for these methods.
