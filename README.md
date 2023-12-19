@@ -2,7 +2,7 @@
 
 Your primary objective is to design and implement a concurrent cache system. This cache should be optimized for scenarios where the majority of operations are read-based, yet it must handle write operations efficiently and safely. It is recommended to utilize a `ReadWriteLock` for managing access to the cache.
 
-## Requirements:
+## Requirements
 
 1. Implement the concurrent cache in the `mate/academy/Cache.java` class.
 
